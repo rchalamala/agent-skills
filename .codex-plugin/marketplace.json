@@ -1,0 +1,13 @@
+{
+  "name": "rchalamala",
+  "owner": {
+    "name": "Rahul Chalamala"
+  },
+  "plugins": [
+    {
+      "name": "engineering",
+      "source": "./",
+      "description": "Native agent execution with focused design, debugging and verification skills."
+    }
+  ]
+}

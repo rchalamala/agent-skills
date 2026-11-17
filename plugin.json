@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "engineering",
+  "version": "1.0.0",
+  "description": "Native agent execution with focused design, debugging and verification skills.",
+  "author": {
+    "name": "Rahul Chalamala"
+  },
+  "repository": "https://github.com/rchalamala/agent-skills",
+  "license": "MIT"
+}
