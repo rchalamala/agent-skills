@@ -1,7 +1,7 @@
 # Engineering
 
-A curated skill plugin for Claude Code, Codex and Cursor. Work stays in the
-native agent loop; focused design, debugging and verification skills load when
+A curated skill plugin for Claude Code, Codex, Devin, dsh and Cursor. Focused
+design, debugging and verification skills load in the native agent loop when
 needed. Independent work and review can use subagents without making every
 implementation step a separate agent.
 
@@ -20,6 +20,19 @@ Codex:
 codex plugin marketplace add rchalamala/agent-skills
 codex plugin add engineering@rchalamala
 ```
+
+For Devin, install the plugin in your personal scope and start a new session.
+
+```sh
+devin plugins install rchalamala/agent-skills
+```
+
+Invoke `/engineering:engineering` in the new session. Devin reads the included
+Claude plugin manifest. See [Devin's plugin reference](https://docs.devin.ai/cli/extensibility/plugins/overview).
+
+For dsh on the Nix-managed Linux devbox, update dotfiles and switch to the new
+generation. New dsh sessions discover the skills in the managed Claude plugin's
+`skills/` directory.
 
 Cursor: import `rchalamala/agent-skills` as a GitHub marketplace in Customize,
 then install `engineering`.
